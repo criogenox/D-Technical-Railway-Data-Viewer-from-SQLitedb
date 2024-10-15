@@ -1,0 +1,50 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+        <file>icons/dark/branch_closed.png</file>
+        <file>icons/dark/branch_closed_disabled.png</file>
+        <file>icons/dark/branch_opened.png</file>
+        <file>icons/dark/branch_opened_disabled.png</file>
+        <file>icons/dark/checkbox_checked.png</file>
+        <file>icons/dark/checkbox_checked_disabled.png</file>
+        <file>icons/dark/checkbox_checked_hover.png</file>
+        <file>icons/dark/checkbox_checked_with_bg.png</file>
+        <file>icons/dark/checkbox_checked_with_bg_disabled.png</file>
+        <file>icons/dark/checkbox_checked_with_bg_hover.png</file>
+        <file>icons/dark/checkbox_indeterminate.png</file>
+        <file>icons/dark/checkbox_indeterminate_disabled.png</file>
+        <file>icons/dark/checkbox_indeterminate_hover.png</file>
+        <file>icons/dark/checkbox_unchecked.png</file>
+        <file>icons/dark/checkbox_unchecked_disabled.png</file>
+        <file>icons/dark/checkbox_unchecked_hover.png</file>
+        <file>icons/dark/checkbox_unchecked_with_bg.png</file>
+        <file>icons/dark/checkbox_unchecked_with_bg_disabled.png</file>
+        <file>icons/dark/checkbox_unchecked_with_bg_hover.png</file>
+        <file>icons/dark/close.png</file>
+        <file>icons/dark/close_disabled.png</file>
+        <file>icons/dark/close_tab_disabled.png</file>
+        <file>icons/dark/close_tab_selected.png</file>
+        <file>icons/dark/close_tab_unselected.png</file>
+        <file>icons/dark/combo_box_down_arrow.png</file>
+        <file>icons/dark/combo_box_down_arrow_disabled.png</file>
+        <file>icons/dark/dark_close.png</file>
+        <file>icons/dark/dock_widget_lock.png</file>
+        <file>icons/dark/dock_widget_lock_disabled.png</file>
+        <file>icons/dark/ngtv_sign.png</file>
+        <file>icons/dark/ngtv_sign_disabled.png</file>
+        <file>icons/dark/ngtv_sign_hover.png</file>
+        <file>icons/dark/pstv_sign.png</file>
+        <file>icons/dark/pstv_sign_disabled.png</file>
+        <file>icons/dark/pstv_sign_hover.png</file>
+        <file>icons/dark/radio_button_off.png</file>
+        <file>icons/dark/radio_button_off_disabled.png</file>
+        <file>icons/dark/radio_button_off_hover.png</file>
+        <file>icons/dark/radio_button_on.png</file>
+        <file>icons/dark/radio_button_on_disabled.png</file>
+        <file>icons/dark/radio_button_on_hover.png</file>
+        <file>icons/dark/size_grip.png</file>
+        <file>icons/dark/slider_handle.png</file>
+        <file>icons/dark/slider_handle_disabled.png</file>
+        <file>icons/dark/slider_handle_hover.png</file>
+    <file>Dark.qss</file>
+</qresource>
+</RCC>
