@@ -46,3 +46,8 @@ cmake-build-debug/
 #Text
 *.md
 *.asc
+
+#Images
+*.png
+*.jpeg
+*.jpg
