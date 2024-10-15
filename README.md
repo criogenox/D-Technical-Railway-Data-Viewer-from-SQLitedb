@@ -78,6 +78,14 @@ Full functionalities in use:  clickable table index, independent views with thei
   </p> 
 </div>
 
+<!-- ROADMAP -->
+## TODO
+
+- [] Completely populating the database.
+- [] Logic implementation for all selection cases.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- LICENSE -->
 ## License
 
