@@ -19,9 +19,9 @@
 > `C++` application providing a comprehensive graphical interface for managing and visualizing data from a dynamic sql table through customizable dockable windows.
 
 `Key Features:`
-- Image viewing: display formats with zoom and pan capabilities.
+- Image viewing: it displays formats with zoom and pan capabilities.
 - Dock management: create, close, and restore dock windows on demand.
-- Data interaction: manipulate data directly from a SQLite database.
+- Data interaction: manipulating data directly from a SQLite database.
 - Clean GUI: responsive layout adapting to multiple resize events.
    </p>
        <p align="right">
@@ -34,11 +34,11 @@
 <div align="justify">
   <p>
 
-> Dynamic creation of dock widget for displaying information related to a specified table.
+> Dynamic creation of dock widgets for displaying information related to a specified table.
 
 `Functionalities:`
 - Checks for existing docks with the same name to prevent duplicates.
-- Restoration of closed docks to its previous geometry, keep from of creating a new ones.
+- Restoration of closed docks to their previous geometry, while preventing the creation of new ones.
 
 > Handling view size fitting in response to several resizing events (including image initial loading).
 
@@ -50,7 +50,7 @@
 `Functionalities:`
 - Handles mouse press events to dragging and panning (warning, inverted mouse buttons).
 - Focus zooming on cursor position disabling the vertical scrollbar to enhance zoom experience.
-- Handles double-click events to fit the scene within the view keeping the aspect ratio.
+- Handles double-click events to fit the scene within the view, keeping the aspect ratio.
    </p>
    <div>
 
@@ -66,7 +66,7 @@
 
 ### Additional info
 
-* `Extensive` checking of instance deletion to ensure proper and effective resource management preventing memory leaks.
+* `Extensive` checking of instance deletion to ensure proper and effective resource management, preventing memory leaks.
 * Widget `stylizing` by a modified theme based on the extremely useful original contribution [QT DarkTheme][qtdarktheme-url].
 
 ##  General view sample
