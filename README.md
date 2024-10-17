@@ -85,6 +85,7 @@ Full functionalities in use:  clickable table index, independent views with thei
 
 - [ ] Completely populate the database.
 - [ ] Logic implementation for all selection cases.
+- [ ] Improve error handling.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
