@@ -56,7 +56,7 @@ void MainWindow::loadDatabase() {
         this,
         "Select Database File",
         "",
-        "Database Files (*.db *.sqlite *.sql);;All Files (*)" // Filter for database files
+        "Database Files (*.db *.sqlite *.sql);;All Files (*)"
     );
 
     // Check if a file was selected
@@ -76,7 +76,6 @@ void MainWindow::addDock(const QString &tableName) {
     idx = false;
     for (const CustomDock *dock: dockList) {
         if (dock->objectName() == tableName) {
-            // qDebug() << "Dock with the same name is already open: " << tableName;
             idx = true;
             return;
         }
@@ -84,7 +83,6 @@ void MainWindow::addDock(const QString &tableName) {
 
     for (CustomDock *dock: closedDocks) {
         if (dock->objectName() == tableName) {
-            // qDebug() << "Dock with the same name is already created, moving it: " << tableName;
             closedDocks.removeOne(dock);
             dockList.append(dock);
             closedDockPositions.removeOne(dock->geometry());
@@ -145,6 +143,10 @@ void MainWindow::closeEvent(QCloseEvent *event [[maybe_unused]]) {
 }
 
 void MainWindow::loadImage() {
+    // ****************
+    // Implementation checking needed to display
+    //         externally loaded image
+    // ****************
     // QString fileName =
     //     QFileDialog::getOpenFileName(this,
     //                                  tr("Open Image"),
@@ -201,7 +203,7 @@ void MainWindow::showAbout() {
             "and visualizing data from a dynamic sql table through customizable dockable windows.</p>"
 
             "<p style='font-size: 12px; font-style: italic; text-align: center;'>"
-            "Version: 0.9</p>"
+            "Version: 0.7</p>"
 
             "<p style='font-size: 14px; font-weight: bold; text-align: left;'>"
             "Key Features:</p>"

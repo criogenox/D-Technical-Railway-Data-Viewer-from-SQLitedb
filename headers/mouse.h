@@ -2,7 +2,6 @@
 #define MOUSE_H
 
 #include <QGraphicsView>
-#include <QMouseEvent>
 #include <QWheelEvent>
 
 class Mouse final : public QGraphicsView {

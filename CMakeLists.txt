@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.29)
 set(PROJECT_NAME "Database-Technical-Info-Viewer")
 project(${PROJECT_NAME} VERSION 1.0.0 LANGUAGES CXX)
 set(TARGET ${PROJECT_NAME})
@@ -14,25 +14,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(MAIN_PATH "${PROJECT_SOURCE_DIR}/main")
 set(SOURCE_PATH "${PROJECT_SOURCE_DIR}/src")
 set(HEADERS_PATH "${PROJECT_SOURCE_DIR}/headers")
-#set(INCLUDE_PATH "${PROJECT_SOURCE_DIR}/include")
-#set(LIBS_PATH "${PROJECT_SOURCE_DIR}/libs")
-#set(FORMS_PATH "${PROJECT_SOURCE_DIR}/forms")
 set(DB_PATH "${PROJECT_SOURCE_DIR}/databases")
-#set(CMAKE_AUTOUIC_SEARCH_PATHS "${PROJECT_SOURCE_DIR}/forms")
 set(RESOURCES_PATH "${PROJECT_SOURCE_DIR}/resources")
 #-----------#-----------#-----------#
 
-#include_directories(${INCLUDE_PATH} ${HEADERS_PATH} ${RESOURCES_PATH})
 include_directories(${HEADERS_PATH} ${RESOURCES_PATH} ${DB_PATH})
-#link_directories(${LIBS_PATH})
 #-----------#-----------#-----------#
 
 file(GLOB_RECURSE CPPM "${MAIN_PATH}/*.cpp")
 file(GLOB_RECURSE HS "${HEADERS_PATH}/*.h")
 file(GLOB_RECURSE CPPS "${SOURCE_PATH}/*.cpp")
 file(GLOB_RECURSE RES "${RESOURCES_PATH}/*.qrc")
-#file(GLOB_RECURSE UIS "${FORMS_PATH}/*.ui")
-#set(PROJECT_SOURCES ${CPPM} ${CPPS} ${HS} ${UIS} ${RES})
 set(PROJECT_SOURCES ${CPPM} ${CPPS} ${HS} ${RES})
 #-----------#-----------#-----------#
 

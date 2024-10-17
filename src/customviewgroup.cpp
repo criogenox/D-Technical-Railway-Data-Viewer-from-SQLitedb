@@ -1,4 +1,3 @@
-#include <QGraphicsScene>
 #include <QVBoxLayout>
 
 #include "customviewgroup.h"
