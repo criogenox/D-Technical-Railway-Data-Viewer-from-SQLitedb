@@ -40,7 +40,7 @@ MainWidget::MainWidget(QWidget *parent)
     mainLayout->setColumnMinimumWidth(0, 500);
     mainLayout->setRowMinimumHeight(0, 500);
 
-    setWindowTitle(tr("Chip Example"));
+    // setWindowTitle(tr(" "));
 
     // ************************************************************
     connect(h1Splitter, &QSplitter::splitterMoved, this, [=, this]() {

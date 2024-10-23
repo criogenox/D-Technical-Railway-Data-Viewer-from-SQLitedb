@@ -6,7 +6,7 @@
 MainWindow::MainWindow(QMainWindow *parent)
     : QMainWindow(parent) {
     auto *menuBar = new QMenuBar(this);
-    QMenu *fileMenu = menuBar->addMenu("File");
+    QMenu *fileMenu = menuBar->addMenu(tr("&File"));
     QMenu *viewMenu = menuBar->addMenu(tr("&View"));
     QMenu *helpMenu = menuBar->addMenu(tr("&Help"));
     setMenuBar(menuBar);
